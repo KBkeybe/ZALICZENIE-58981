@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Poppins:ital,wght@400;600&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+ <link rel="stylesheet" href="Styles.css">
+
+ <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+  <div class="left">
+    <img src="strona zdjęcia/LOGO.png" alt="Logo" class="logo" />
+    <a href="#">Krzysztof Błądek</a>
+  </div>
+
+    <div class="right">
+      <a href="https://www.tiktok.com/@krzysiu_misiu" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-tiktok"></i>
+    <span>TikTok</span>
+    </a>
+
+     <a href="https://www.instagram.com/krzysztof.bladek/" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-instagram"></i>
+    <span>Instagram</span>
+    </a>
+
+    <a href="#kontakt">
+    <i class="fa-solid fa-envelope"></i>
+    <span>Email</span>
+  </a>
+</div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: JA -->
+    <section id="ja">
+  <!-- NAGŁÓWEK NA GÓRZE -->
+  <h2>Siemano, jestem Krzysiek 👋</h2>
+
+  <!-- GŁÓWNA CZĘŚĆ TEKST + ZDJĘCIE -->
+  <div class="ja-selection">
+    <div class="text">
+      <p>Montażysta & Content Creator z ponad 2-letnim doświadczeniem. Pełen energii, kreatywny i zawsze gotowy do współpracy! Z zaangażowaniem realizuję każdy projekt, dbając o jakość, estetykę i dopasowanie do oczekiwań odbiorców.</p>
+
+      <div class="links">
+        <a href="Umiejętności.html"><i class="fa-solid fa-video"></i><span>UMIEJĘTNOŚCI</span></a>
+        <a href="doświadczenie.html"><i class="fa-solid fa-pen"></i><span>DOŚWIADCZENIE</span></a>
+        <a href="#kontakt"><i class="fa-solid fa-envelope"></i><span>KONTAKT</span></a>
+      </div>
+    </div>
+
+    <div class="headshot">
+      <img src="strona zdjęcia/481259255_8856677941104222_508119963392414419_n.jpg" alt="Krzysztof Błądek headshot">
+    </div>
+  </div>
+</section>
+
+    <!-- SECTION 2: UMIEJĘTNOŚCI -->
+    <section id="umiejetnosci">
+  <h2>Moje Umiejętności</h2>
+  <p>Jako twórca treści i operator kamery, łączę kreatywność z techniką.
+     Poniżej moje główne specjalizacje:</p>
+
+  <div class="skills-grid">
+    <div class="skill-box">
+      <img src="strona zdjęcia/Adobe-Premiere-Pro-CC-for-Teams-ENG--Dla-komercji.png" alt="Video Editor" width="40" />
+      <span>Video Editor</span>
+    </div>
+    <div class="skill-box">
+      <i class="fa-solid fa-video"></i>
+      <span>Operator Kamery</span>
+    </div>
+    <div class="skill-box">
+      <i class="fa-solid fa-pen-nib"></i>
+      <span>Content Creator</span>
+    </div>
+  </div>
+</section>
+
+    <!-- SECTION 3: DOŚWIADCZENIE -->
+    <section id="doswiadczenie">
+        <h2>Doświadczenie</h2>
+        <p>Pracowałem jako operator kamery i content creator dla <strong>SneakerShopu</strong>, gdzie tworzyłem atrakcyjne materiały wideo promujące produkty i wydarzenia.</p>
+        <p>Oprócz tego montowałem filmy i tworzyłem content dla różnych startupów, dbając o nowoczesny i angażujący przekaz.</p>
+    </section>
+    <div class="experience-photos">
+  <img src="strona zdjęcia/511043163_571551866027755_9091136854326442884_n.jpg" alt="Doświadczenie 1">
+  <img src="strona zdjęcia/507183397_1227630112155178_6386573085132605556_n.jpg" alt="Doświadczenie 2">
+  <img src="strona zdjęcia/507210055_585896251235482_8850122779981946907_n.jpg" alt="Doświadczenie 3">
+</div>
+
+    <!-- SECTION 4: KONTAKT -->
+   <section id="kontakt">
+  <h2>Kontakt</h2>
+  <p>Masz pytania lub chcesz nawiązać współpracę? Napisz do mnie wiadomość!</p>
+
+  <form id="contact-form" action="mailto:krzysztof.bladek01@gmail.com" method="POST" enctype="text/plain" onsubmit="return sendEmail(event)">
+    <textarea name="message" placeholder="Napisz swoją wiadomość tutaj..." required></textarea>
+    <button type="submit">Wyślij wiadomość</button>
+  </form>
+</section>
+</main>
+</html>
